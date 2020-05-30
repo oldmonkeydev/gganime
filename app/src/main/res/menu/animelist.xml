@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/anime_list_search"
+            android:title="Library"
+            android:icon="@drawable/ic_folder"/>
+        <item
+            android:id="@+id/btn_news"
+            android:title="News"
+            android:icon="@drawable/ic_news"/>
+
+
+        <item
+            android:id="@+id/NewSeason"
+            android:title="New Seasons"
+            android:icon="@drawable/ic_new_season"/>
+
+        <item
+            android:id="@+id/movies"
+            android:title="Movies"
+            android:icon="@drawable/ic_local_movies_black_24dp"/>
+        <item
+            android:id="@+id/Popular"
+            android:title="Popular Series"
+            android:icon="@drawable/ic_star_black_24dp"/>
+
+
+
+    </group>
+
+    <group android:menuCategory="alternative" android:visible="true">
+        <item
+            android:id="@+id/gacha"
+            android:title="Get Premium"
+            android:icon="@drawable/ic_casino"/>
+        <item
+            android:id="@+id/info"
+            android:title="Info"
+            android:icon="@drawable/ic_info_"/>
+
+    </group>
+
+</menu>

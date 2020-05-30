@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkThemeBG">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/final_icon"
+    android:layout_marginTop="12dp"
+    android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvVersionApp"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center"
+        android:textColor="@color/DarkThemeLabel"
+        android:layout_marginTop="12dp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardViewRate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/DarkThemeBG">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_star_white_24dp"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/DarkThemeLabel"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="50dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="12dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardViewPrivacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/DarkThemeBG">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_policy"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/DarkThemeLabel"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="50dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="12dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardViewTermNCondic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/DarkThemeBG">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_terms"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/DarkThemeLabel"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="50dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="12dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardViewFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/DarkThemeBG">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_feedback"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FeedBack"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/DarkThemeLabel"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="50dp"/>
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_arrow_right"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="12dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

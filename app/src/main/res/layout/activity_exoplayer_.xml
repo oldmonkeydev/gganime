@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exoplayer_Activity"
+    android:background="@color/ColorPlayerBg">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        app:shutter_background_color="@color/ColorPlayerBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ColorPlayerBg"
+        app:controller_layout_id="@layout/exoplayercontroller"
+        android:id="@+id/exoplayer_id"
+        android:keepScreenOn="true">
+
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    style="?android:attr/progressBarStyle"
+    android:visibility="gone"
+    android:id="@+id/buffer"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar_exoplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
